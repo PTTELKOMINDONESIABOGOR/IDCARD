@@ -105,12 +105,12 @@ body{
 }
 
 .photo{
-    width:170px;
-    height:210px;
+    width:140px;
+    height:190px;
     object-fit:cover;
     border-radius:18px;
-    border:5px solid white;
-    box-shadow:0 10px 25px rgba(0,0,0,.25);
+    border:2px solid white;
+    box-shadow:0 5px 5px rgba(0,0,0,.25);
 }
 
 /* ===========================
