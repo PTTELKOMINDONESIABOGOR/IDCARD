@@ -73,25 +73,27 @@ body{
 =========================== */
 
 .header{
-    background:linear-gradient(90deg,#ff0000,#990000);
-    color:white;
+    background:white;
+    color:#222;
     text-align:center;
-    padding:28px 20px 60px;
+    padding:30px 20px 20px;
 }
 
 .logo{
-    width:90px;
-    margin-bottom:12px;
+    width:140px;
+    margin-bottom:15px;
 }
 
 .header h1{
     font-size:28px;
     letter-spacing:1px;
+    color:#c40000;
+    font-weight:700;
 }
 
 .header p{
-    opacity:.9;
-    margin-top:6px;
+    color:#666;
+    margin-top:8px;
 }
 
 /* ===========================
@@ -101,7 +103,7 @@ body{
 .photo-box{
     display:flex;
     justify-content:center;
-    margin-top:-45px;
+    margin-top:15px;
 }
 
 .photo{
