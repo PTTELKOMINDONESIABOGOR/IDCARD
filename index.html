@@ -1,161 +1,62 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Technician Profile</title>
+<title>Digital ID</title>
 
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial, Helvetica, sans-serif;
-}
-
-body{
-
-background:linear-gradient(135deg,#d50000,#8b0000);
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-height:100vh;
-
-}
-
-.card{
-
-width:360px;
-
-background:white;
-
-border-radius:20px;
-
-padding:25px;
-
-text-align:center;
-
-box-shadow:0 20px 40px rgba(0,0,0,.3);
-
-}
-
-.logo{
-
-width:140px;
-
-margin-bottom:15px;
-
-}
-
-.photo{
-
-width:160px;
-
-height:200px;
-
-object-fit:cover;
-
-border-radius:12px;
-
-border:5px solid #d50000;
-
-margin-bottom:15px;
-
-}
-
-h2{
-
-color:#b30000;
-
-margin-bottom:5px;
-
-}
-
-.job{
-
-color:#666;
-
-margin-bottom:20px;
-
-font-weight:bold;
-
-}
-
-table{
-
-width:100%;
-
-text-align:left;
-
-margin-top:10px;
-
-}
-
-td{
-
-padding:8px;
-
-border-bottom:1px solid #eee;
-
-}
-
-.status{
-
-margin-top:20px;
-
-background:#28a745;
-
-color:white;
-
-padding:12px;
-
-border-radius:10px;
-
-font-weight:bold;
-
-}
-
-.footer{
-
-margin-top:20px;
-
-font-size:12px;
-
-color:#777;
-
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<div class="card">
+<div id="loading">
+
+<div class="spinner"></div>
+
+<h2>Memverifikasi Identitas...</h2>
+
+<p>Mohon tunggu sebentar</p>
+
+</div>
+
+<div id="card">
+
+<div class="header">
 
 <img src="logo.png" class="logo">
 
+<h1>DIGITAL ID</h1>
+
+<p>Technician Profile</p>
+
+</div>
+
+<div class="photo-box">
+
 <img src="foto.jpg" class="photo">
+
+</div>
+
+<div class="verified">
+
+✔ VERIFIED
+
+</div>
 
 <h2>SEMY RUMBIAK</h2>
 
-<div class="job">
-
-TEKNISI JARINGAN
-
-</div>
+<h3>TEKNISI JARINGAN</h3>
 
 <table>
 
 <tr>
 
-<td><b>NIK</b></td>
+<td>NIK</td>
 
 <td>9104010101990012</td>
 
@@ -163,7 +64,7 @@ TEKNISI JARINGAN
 
 <tr>
 
-<td><b>Regional</b></td>
+<td>Regional</td>
 
 <td>Bogor</td>
 
@@ -171,7 +72,7 @@ TEKNISI JARINGAN
 
 <tr>
 
-<td><b>Unit</b></td>
+<td>Unit</td>
 
 <td>IndiHome</td>
 
@@ -187,13 +88,13 @@ TEKNISI JARINGAN
 
 <div class="footer">
 
-Profil pribadi untuk identifikasi.<br>
-
-Situs Resmi Perusahaan PT. Telkom Indonesia
+Digital ID • GitHub Pages
 
 </div>
 
 </div>
+
+<script src="script.js"></script>
 
 </body>
 
